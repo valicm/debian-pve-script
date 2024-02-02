@@ -25,3 +25,8 @@ wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-scri
 ```sh
 wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-script.sh | bash -s -- -p 8 -p git,rsync
 ```
+
+### Running as sudo user
+```sh
+wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-script.sh | sudo bash -s -- -p 8 -p git,rsync
+```

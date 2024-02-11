@@ -23,10 +23,10 @@ wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-scri
 
 ### Custom swap size 8GB, with git and rsync
 ```sh
-wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-script.sh | bash -s -- -p 8 -p git,rsync
+wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-script.sh | bash -s -- -s 8 -p git,rsync
 ```
 
 ### Running as sudo user
 ```sh
-wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-script.sh | sudo bash -s -- -p 8 -p git,rsync
+wget -qLO - https://github.com/valicm/debian-pve-script/raw/main/debian-pve-script.sh | sudo bash -s -- -s 8 -p git,rsync
 ```
